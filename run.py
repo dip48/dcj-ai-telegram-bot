@@ -77,7 +77,7 @@ async def chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # MAIN
 # -------------------------------------------------
 def main():
-    print("✅ Telegram Bot Started...")
+    print("Telegram Bot Started...")
 
     app = ApplicationBuilder().token(TOKEN).build()
 
